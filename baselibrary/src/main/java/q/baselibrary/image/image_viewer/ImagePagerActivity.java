@@ -13,7 +13,11 @@ import java.util.ArrayList;
 import q.baselibrary.R;
 
 /**
- * 图片查看器
+ * image viewer
+ * Intent intent = new Intent(context, ImagePagerActivity.class);
+ * intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_URLS, urls);
+ * intent.putExtra(ImagePagerActivity.EXTRA_IMAGE_INDEX, pos);
+ * myContext.startActivity(intent);
  */
 public class ImagePagerActivity extends FragmentActivity {
 
@@ -38,9 +42,9 @@ public class ImagePagerActivity extends FragmentActivity {
         mPager.setAdapter(mAdapter);
         indicator = (TextView) findViewById(R.id.indicator);
 
-        CharSequence text = getString(R.string.viewpager_indicator, 1, mPager.getAdapter().getCount());
+        CharSequence text = getString(R.string.imageViewer_indicator, 1, mPager.getAdapter().getCount());
         indicator.setText(text);
-        // 更新下标
+        // update number show
         mPager.setOnPageChangeListener(new OnPageChangeListener() {
 
             @Override
@@ -53,7 +57,7 @@ public class ImagePagerActivity extends FragmentActivity {
 
             @Override
             public void onPageSelected(int arg0) {
-                CharSequence text = getString(R.string.viewpager_indicator, arg0 + 1, mPager.getAdapter().getCount());
+                CharSequence text = getString(R.string.imageViewer_indicator, arg0 + 1, mPager.getAdapter().getCount());
                 indicator.setText(text);
             }
 

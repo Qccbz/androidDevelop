@@ -83,7 +83,7 @@ public class ImageGridAdapter extends BaseAdapter {
         h.iv.setTag(item.imagePath);
         cache.displayBmp(h.iv, item.thumbnailPath, item.imagePath, callback);
         if (item.isSelected || isSelect(item)) {
-            h.selected.setImageResource(R.mipmap.btn_image_s_9);
+            h.selected.setImageResource(R.mipmap.btn_image_s);
             h.text.setBackgroundResource(R.drawable.image_picker_line);
         } else {
             h.selected.setImageResource(-1);
@@ -102,7 +102,7 @@ public class ImageGridAdapter extends BaseAdapter {
                 if (ImagePickerMain.selUrls.size() < ImagePickerMain.MAX_NUM) {
                     item.isSelected = !item.isSelected;
                     if (item.isSelected) {
-                        h.selected.setImageResource(R.mipmap.btn_image_s_9);
+                        h.selected.setImageResource(R.mipmap.btn_image_s);
                         h.text.setBackgroundResource(R.drawable.image_picker_line);
 
                         putPath(path);

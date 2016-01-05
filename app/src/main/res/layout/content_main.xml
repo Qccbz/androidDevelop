@@ -13,7 +13,17 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
+        android:id="@+id/hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hello"
+        android:layout_marginTop="5dp"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp" />
 </RelativeLayout>

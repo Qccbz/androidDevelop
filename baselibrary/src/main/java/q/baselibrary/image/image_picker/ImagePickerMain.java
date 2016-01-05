@@ -17,11 +17,15 @@ import java.util.List;
 import java.util.Queue;
 
 import q.baselibrary.R;
-import q.baselibrary.base.BaseActivity;
+import q.baselibrary.base.QBaseActivity;
 import q.baselibrary.panel.TitlePanel;
 
-
-public class ImagePickerMain extends BaseActivity {
+/**
+ * image picker
+ * Intent grally = new Intent(context, ImagePickerMain.class);
+ * startActivityForResult(grally, REQUEST_GRALLY);
+ */
+public class ImagePickerMain extends QBaseActivity {
 
     private List<ImageBucket> dataList;
     private GridView gridView;
@@ -54,17 +58,11 @@ public class ImagePickerMain extends BaseActivity {
         }
     }
 
-    /**
-     * 初始化数据
-     */
     private void initData() {
         dataList = helper.getImagesBucketList(false);
         bimap = BitmapFactory.decodeResource(getResources(), R.mipmap.default_img);
     }
 
-    /**
-     * 初始化view视图
-     */
     private void initView() {
         gridView = (GridView) findViewById(R.id.gridview);
         adapter = new ImageBucketAdapter(ImagePickerMain.this, dataList);
@@ -79,8 +77,8 @@ public class ImagePickerMain extends BaseActivity {
             }
         });
         tp = new TitlePanel(this);
-        tp.setTitle("相册");
-        tp.setRightTitle("完成");
+        tp.setTitle("Gallary");
+        tp.setRightTitle("Done");
         tp.rightTip.setOnClickListener(new OnClickListener() {
 
             @Override

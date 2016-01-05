@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9509e5b442a04f719bbb1b1d1a14595e770adce1.jar" />
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-ebcb584438e2c42dea77748e13a167d1b80f29e6.jar" />
     </item>
     <item
         jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
@@ -28,6 +28,13 @@
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-7dd094f0abf7955d1acec3fa95dbb6eb6e6f5a05.jar" />
+    </item>
+    <item
+        jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9509e5b442a04f719bbb1b1d1a14595e770adce1.jar" />
     </item>
     <item
         jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"

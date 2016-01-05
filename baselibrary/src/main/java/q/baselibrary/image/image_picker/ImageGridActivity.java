@@ -14,12 +14,12 @@ import android.widget.GridView;
 import java.util.List;
 
 import q.baselibrary.R;
-import q.baselibrary.base.BaseActivity;
+import q.baselibrary.base.QBaseActivity;
 import q.baselibrary.panel.TitlePanel;
 import q.baselibrary.utils.UIToolKit;
 
 
-public class ImageGridActivity extends BaseActivity {
+public class ImageGridActivity extends QBaseActivity {
 
     public static final String EXTRA_IMAGE_LIST = "imagelist";
     private List<ImageItem> dataList;
@@ -33,8 +33,8 @@ public class ImageGridActivity extends BaseActivity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 0:
-                    UIToolKit.showToastShort(context, "最多选择"
-                            + ImagePickerMain.MAX_NUM + "张图片");
+                    UIToolKit.showToastShort(context, "select max "
+                            + ImagePickerMain.MAX_NUM + " images");
                     break;
             }
         }
@@ -45,15 +45,10 @@ public class ImageGridActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.image_picker_grid);
-
         helper = AlbumHelper.getHelper();
         helper.init(getApplicationContext());
-
-        dataList = (List<ImageItem>) getIntent().getSerializableExtra(
-                EXTRA_IMAGE_LIST);
-
+        dataList = (List<ImageItem>) getIntent().getSerializableExtra(EXTRA_IMAGE_LIST);
         initView();
-
     }
 
     private void initView() {
@@ -69,8 +64,8 @@ public class ImageGridActivity extends BaseActivity {
             }
         });
         tp = new TitlePanel(this);
-        tp.setTitle("选择图片");
-        tp.setRightTitle("完成");
+        tp.setTitle("Select images");
+        tp.setRightTitle("Done");
         tp.rightTip.setOnClickListener(new OnClickListener() {
 
             @Override

@@ -26,7 +26,7 @@ import q.baselibrary.utils.FileUtils;
 import q.baselibrary.utils.UIToolKit;
 
 /**
- * 单张图片显示Fragment
+ * Fragment to show one image
  */
 public class ImageDetailFragment extends Fragment {
 
@@ -80,7 +80,7 @@ public class ImageDetailFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        // 异步加载图片
+        // load image with AsyncTask
         new ImageTask().execute(mImageUrl);
     }
 
@@ -114,8 +114,8 @@ public class ImageDetailFragment extends Fragment {
 
         // data
         List<ItemData> data = new ArrayList<ItemData>();
-        ItemData item1 = new ItemData("保存到本地相册");
-        PopupImager.ItemData item2 = new PopupImager.ItemData("取消");
+        ItemData item1 = new ItemData("save to local gallary");
+        PopupImager.ItemData item2 = new PopupImager.ItemData("cancel");
         data.add(item1);
         data.add(item2);
 
@@ -128,19 +128,18 @@ public class ImageDetailFragment extends Fragment {
                 popupMenu.dismiss();
                 switch (pos) {
                     case 0:
-                        // 保存图片到本地相册
+                        // save pics to local gallary
                         try {
                             File f = new File(mImageUrl);
                             if (f != null && f.isFile()) {
-                                MediaStore.Images.Media.insertImage(getActivity()
-                                        .getContentResolver(), mImageUrl, f
-                                        .getName(), null);
-                                UIToolKit.showToastShort(getActivity(), "保存成功");
+                                MediaStore.Images.Media.insertImage(getActivity().getContentResolver(),
+                                        mImageUrl, f.getName(), null);
+                                UIToolKit.showToastShort(getActivity(), "save successful");
                             }
 
                         } catch (Exception e) {
                             e.printStackTrace();
-                            UIToolKit.showToastShort(getActivity(), "保存失败");
+                            UIToolKit.showToastShort(getActivity(), "save failed");
                         }
                         break;
                 }
