@@ -41,7 +41,6 @@ public class ImagePickerMain extends QBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_picker_bucket);
-
         helper = AlbumHelper.getHelper();
         helper.init(getApplicationContext());
 

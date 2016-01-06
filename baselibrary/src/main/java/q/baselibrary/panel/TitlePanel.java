@@ -20,6 +20,7 @@ public class TitlePanel {
         this.act = act;
         if (act != null) {
             init();
+            setListener();
         }
     }
 
@@ -32,6 +33,11 @@ public class TitlePanel {
 
         rightImg = (ImageView) act.findViewById(R.id.titleRightImg);
         leftImg = (ImageView) act.findViewById(R.id.titleLeftImg);
+    }
+
+    private void setListener() {
+        back.setOnClickListener(listener);
+        leftTip.setOnClickListener(listener);
     }
 
     public void setTitle(String text) {
@@ -72,4 +78,13 @@ public class TitlePanel {
         showLeft(false);
     }
 
+    private View.OnClickListener listener = new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            if (v == back || v == leftTip) {
+                act.onBackPressed();
+            }
+        }
+    };
 }

@@ -12,7 +12,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
 import java.util.List;
-
 import q.baselibrary.R;
 import q.baselibrary.base.QBaseActivity;
 import q.baselibrary.panel.TitlePanel;
@@ -43,7 +42,6 @@ public class ImageGridActivity extends QBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.image_picker_grid);
         helper = AlbumHelper.getHelper();
         helper.init(getApplicationContext());

@@ -2,46 +2,18 @@
 <items version="2" >
 
     <item
-        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\androidDevelop\baselibrary\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-ebcb584438e2c42dea77748e13a167d1b80f29e6.jar" />
+        sha1="bdbafac59a2121ecd9bcc1d3123a5fd774063324">
+        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-422669ce7bdb952ad416eaf1df51673a1436bc31.jar" />
     </item>
     <item
-        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.1\b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8\butterknife-5.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-5fcff3029f4b38d77de75e822580bdb6d89fcebc.jar" />
-    </item>
-    <item
-        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-fc02cf136717cde48d9e961cdf9bec3c07356bb4.jar" />
-    </item>
-    <item
-        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-7dd094f0abf7955d1acec3fa95dbb6eb6e6f5a05.jar" />
-    </item>
-    <item
-        jar="D:\androidsdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9509e5b442a04f719bbb1b1d1a14595e770adce1.jar" />
-    </item>
-    <item
-        jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-837e485ea526ab6da17094e29beec0bea6a9d3c5.jar" />
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
+        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\butterknife-5.1.1-4e4ce574f3d72998b594448756183a3048e0c38d.jar" />
     </item>
 
 </items>
