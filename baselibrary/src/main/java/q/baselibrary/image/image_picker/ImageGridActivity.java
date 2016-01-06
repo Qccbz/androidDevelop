@@ -15,7 +15,7 @@ import java.util.List;
 import q.baselibrary.R;
 import q.baselibrary.base.QBaseActivity;
 import q.baselibrary.panel.TitlePanel;
-import q.baselibrary.utils.UIToolKit;
+import q.baselibrary.utils.QUI;
 
 
 public class ImageGridActivity extends QBaseActivity {
@@ -32,7 +32,7 @@ public class ImageGridActivity extends QBaseActivity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 0:
-                    UIToolKit.showToastShort(context, "select max "
+                    QUI.showToastShort(context, "select max "
                             + ImagePickerMain.MAX_NUM + " images");
                     break;
             }

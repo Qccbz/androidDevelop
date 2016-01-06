@@ -22,8 +22,9 @@ import java.util.List;
 import q.baselibrary.R;
 import q.baselibrary.image.image_viewer.PopupImager.ItemData;
 import q.baselibrary.image.image_viewer.photoview.PhotoViewAttacher;
-import q.baselibrary.utils.FileUtils;
-import q.baselibrary.utils.UIToolKit;
+import q.baselibrary.utils.QFile;
+import q.baselibrary.utils.QImage;
+import q.baselibrary.utils.QUI;
 
 /**
  * Fragment to show one image
@@ -95,7 +96,7 @@ public class ImageDetailFragment extends Fragment {
         @Override
         protected Bitmap doInBackground(String... params) {
             //get image from server or local
-            return FileUtils.getImage(params[0]);
+            return QImage.getImage(params[0]);
         }
 
         @Override
@@ -134,12 +135,12 @@ public class ImageDetailFragment extends Fragment {
                             if (f != null && f.isFile()) {
                                 MediaStore.Images.Media.insertImage(getActivity().getContentResolver(),
                                         mImageUrl, f.getName(), null);
-                                UIToolKit.showToastShort(getActivity(), "save successful");
+                                QUI.showToastShort(getActivity(), "save successful");
                             }
 
                         } catch (Exception e) {
                             e.printStackTrace();
-                            UIToolKit.showToastShort(getActivity(), "save failed");
+                            QUI.showToastShort(getActivity(), "save failed");
                         }
                         break;
                 }

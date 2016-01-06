@@ -10,46 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f627749-3f12-4f4c-85c0-06212cf8c06f" name="Default" comment="add image_picker and image_viewer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/actionbar_add_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_menu_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/you32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/DividerGridItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/DividerItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerHomeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerHomeAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerStaggeredActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerStaggeredAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_single_recyclerview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_5_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider_bg02.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_staggered_home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/recycler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/recycler_staggered.xml" />
-      <change type="DELETED" beforePath="E:\qiu's files\androidGithub\androidDevelop\app\src\main\java\q\app\fragment\BaseFragment.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QHttp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QNetWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QPackage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QShell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QTime.java" />
+      <change type="DELETED" beforePath="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils\PictureToolKit.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils\StringToolKit.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImageDetailFragment.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImageDetailFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageGridActivity.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageGridActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImagePagerActivity.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImagePagerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImagePickerMain.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImagePickerMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/q/app/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/q/app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseActivity.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/panel/TitlePanel.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/panel/TitlePanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/baselibrary.iml" afterPath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/build.gradle" afterPath="$PROJECT_DIR$/baselibrary/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/PopupImager.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/PopupImager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils\FileUtils.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QFile.java" />
+      <change type="MOVED" beforePath="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils\MobileToolKit.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMobile.java" />
+      <change type="MOVED" beforePath="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils\UIToolKit.java" afterPath="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QUI.java" />
     </list>
     <ignored path="androidDevelop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,176 +72,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QBaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseActivity.java">
+      <file leaf-file-name="QString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#462#463#0" expanded="false" />
-                <element signature="e#516#517#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QBaseAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#589#590#0" expanded="false" />
-                <element signature="e#630#631#0" expanded="false" />
-                <element signature="e#1043#1044#0" expanded="false" />
-                <element signature="e#1081#1082#0" expanded="false" />
-                <element signature="e#1131#1132#0" expanded="false" />
-                <element signature="e#1169#1170#0" expanded="false" />
-                <element signature="e#1219#1220#0" expanded="false" />
-                <element signature="e#1243#1244#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringToolKit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/StringToolKit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#512#513#0" expanded="false" />
-                <element signature="e#563#564#0" expanded="false" />
-                <element signature="e#613#614#0" expanded="false" />
-                <element signature="e#664#665#0" expanded="false" />
-                <element signature="e#10482#10483#0" expanded="false" />
-                <element signature="e#10518#10519#0" expanded="false" />
-                <element signature="e#11591#11592#0" expanded="false" />
-                <element signature="e#11644#11645#0" expanded="false" />
-                <element signature="e#11695#11696#0" expanded="false" />
-                <element signature="e#11746#11747#0" expanded="false" />
-                <element signature="e#11797#11798#0" expanded="false" />
-                <element signature="e#11856#11857#0" expanded="false" />
-                <element signature="e#12518#12519#0" expanded="false" />
-                <element signature="e#12569#12570#0" expanded="false" />
-                <element signature="e#14960#14961#0" expanded="false" />
-                <element signature="e#15006#15007#0" expanded="false" />
-                <element signature="e#15172#15173#0" expanded="false" />
-                <element signature="e#15215#15216#0" expanded="false" />
-                <element signature="e#17399#17400#0" expanded="false" />
-                <element signature="e#17453#17454#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIToolKit.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/UIToolKit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QBaseFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseFragment.java">
+      <file leaf-file-name="QThreadPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TitlePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/panel/TitlePanel.java">
+      <file leaf-file-name="QUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.16901408">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1203#1204#0" expanded="false" />
-                <element signature="e#1238#1239#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/FileUtils.java">
+      <file leaf-file-name="QTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+              <caret line="262" column="31" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5084#5085#0" expanded="false" />
-                <element signature="e#5131#5132#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileToolKit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/MobileToolKit.java">
+      <file leaf-file-name="QObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureToolKit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/PictureToolKit.java">
+      <file leaf-file-name="QPackage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QPackage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+              <caret line="590" column="0" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1972#1973#0" expanded="false" />
-                <element signature="e#2008#2009#0" expanded="false" />
-                <element signature="e#6169#6170#0" expanded="false" />
-                <element signature="e#6205#6206#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QLog.java">
+      <file leaf-file-name="QRandom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QRandom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2367#2368#0" expanded="false" />
-                <element signature="e#2410#2411#0" expanded="false" />
-                <element signature="e#2498#2499#0" expanded="false" />
-                <element signature="e#2541#2542#0" expanded="false" />
-                <element signature="e#2629#2630#0" expanded="false" />
-                <element signature="e#2672#2673#0" expanded="false" />
-                <element signature="e#2760#2761#0" expanded="false" />
-                <element signature="e#2803#2804#0" expanded="false" />
-                <element signature="e#2891#2892#0" expanded="false" />
-                <element signature="e#2934#2935#0" expanded="false" />
-                <element signature="e#3262#3263#0" expanded="false" />
-                <element signature="e#3319#3320#0" expanded="false" />
-                <element signature="e#3408#3409#0" expanded="false" />
-                <element signature="e#3465#3466#0" expanded="false" />
-                <element signature="e#3554#3555#0" expanded="false" />
-                <element signature="e#3611#3612#0" expanded="false" />
-                <element signature="e#3700#3701#0" expanded="false" />
-                <element signature="e#3757#3758#0" expanded="false" />
-                <element signature="e#3846#3847#0" expanded="false" />
-                <element signature="e#3903#3904#0" expanded="false" />
-              </folding>
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QShell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QShell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QSize.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QSize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-27.733334">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2467,57 +2398,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/Compat.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/scrollerproxy/ScrollerProxy.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/FroyoGestureDetector.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/GestureDetector.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/OnGestureListener.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/VersionedGestureDetector.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/scrollerproxy/GingerScroller.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/scrollerproxy/IcsScroller.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/scrollerproxy/PreGingerScroller.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/IPhotoView.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/PhotoView.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/KBaseAdapter.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseAdapter.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImageDetailFragment.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageBucket.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageBucketAdapter.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageItem.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/BaseFragment.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseFragment.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/EclairGestureDetector.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/CupcakeGestureDetector.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/PhotoViewAttacher.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/FileUtils.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/MobileToolKit.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_home.xml" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QRecylerViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/DividerGridItemDecoration.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/HomeAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/StaggeredHomeAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/StaggeredGridLayoutActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/DividerItemDecoration.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/recycler.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/recycler_staggered.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/q/app/MainActivity.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/base/QBaseActivity.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/baselibrary/build.gradle" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/res/layout/image_picker_grid.xml" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/panel/TitlePanel.java" />
-        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageGridActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerHomeActivity.java" />
         <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImagePickerMain.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerStaggeredActivity.java" />
         <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImagePagerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerHomeAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/q/app/demo/recyclerview/RecyclerStaggeredAdapter.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/entity/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/entity/HttpConstants.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ObjectUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/IOUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/RandomUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ScreenUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ShellUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/SizeUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/TimeUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QScreen.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QString.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/UIToolKit.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/PictureToolKit.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/PackageUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QPackage.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/AppUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QArray.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ListUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QList.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/MapUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QUI.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QShell.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QObject.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMap.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QIO.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/entity/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/PopupImager.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImageDetailFragment.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QTime.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QApp.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMobile.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QNetWork.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QFile.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/SingletonUtils.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QSingleton.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QImage.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QSize.java" />
+        <option value="$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QThreadPool.java" />
       </list>
     </option>
   </component>
@@ -2790,6 +2721,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidDevelop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="androidDevelop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baselibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baselibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2941,11 +2906,11 @@
       <recent name="q.baselibrary.base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\utils" />
+      <recent name="E:\qiu's files\androidGithub\androidDevelop\baselibrary\src\main\java\q\baselibrary\entity" />
       <recent name="E:\qiu's files\androidGithub\androidDevelop\app\src\main\res\mipmap-hdpi" />
       <recent name="E:\qiu's files\androidGithub\androidDevelop\app\src\main\res\menu" />
       <recent name="E:\qiu's files\androidGithub\androidDevelop\app\src\main\res\layout" />
-      <recent name="E:\qiu's files\androidGithub\androidDevelop\app\src\main\res\drawable" />
-      <recent name="E:\qiu's files\androidGithub\androidDevelop\app\src\main\java\q\app\demo\recyclerview" />
     </key>
     <key name="android.template.packageName">
       <recent name="q.baselibrary.base" />
@@ -3186,34 +3151,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6365159" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42211056" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1641541" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5259631" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4874372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38190955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4321608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27458397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.319933" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6365159" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3259,287 +3224,24 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QHttp.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QThreadPool.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/HackyViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/EclairGestureDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/androidsdk/sources/android-23/android/util/FloatMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/PhotoViewAttacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="337" column="26" selection-start-line="337" selection-start-column="26" selection-end-line="337" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/photoview/gestures/CupcakeGestureDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/res/mipmap-hdpi/btn_image_s.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/res/mipmap-hdpi/btn_image_n.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageGridAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3028169">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/androidsdk/sources/android-23/android/os/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21830986">
-          <caret line="584" column="31" selection-start-line="584" selection-start-column="31" selection-end-line="584" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/divider_bg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_single_recyclerview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4666667">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/recycler_staggered.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45070422">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/recycler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45070422">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/androidsdk/extras/android/m2repository/com/android/support/appcompat-v7/23.0.1/appcompat-v7-23.0.1-sources.jar!/android/support/v7/app/AppCompatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="453" column="29" selection-start-line="453" selection-start-column="29" selection-end-line="453" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.142857">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#427#445#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/AlbumHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/res/layout/global_title.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9666667">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/androidsdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2497" column="16" selection-start-line="2497" selection-start-column="16" selection-end-line="2497" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/q/app/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/res/layout/image_picker_grid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7333333">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImageGridActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#877#1208#0" expanded="false" />
-            <element signature="e#1207#1208#0" expanded="false" />
-            <element signature="e#1901#2118#0" expanded="false" />
-            <element signature="e#2117#2118#0" expanded="false" />
-            <element signature="e#2267#2405#0" expanded="false" />
-            <element signature="e#2404#2405#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_picker/ImagePickerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImagePagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3642,105 +3344,363 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/FileUtils.java">
+    <entry file="file://D:/androidsdk/sources/android-23/android/util/DisplayMetrics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5084#5085#0" expanded="false" />
-            <element signature="e#5131#5132#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/MobileToolKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="165" column="28" selection-start-line="165" selection-start-column="28" selection-end-line="165" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/PictureToolKit.java">
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="567" column="18" selection-start-line="567" selection-start-column="18" selection-end-line="567" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1972#1973#0" expanded="false" />
-            <element signature="e#2008#2009#0" expanded="false" />
-            <element signature="e#6169#6170#0" expanded="false" />
-            <element signature="e#6205#6206#0" expanded="false" />
+            <element signature="e#17718#17719#0" expanded="false" />
+            <element signature="e#17749#17750#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/lang/AssertionError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45070422">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/android/os/StatFs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274648">
+          <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+          <folding>
+            <element signature="e#3635#3636#0" expanded="false" />
+            <element signature="e#3678#3679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/PopupImager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/image/image_viewer/ImageDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/android/telephony/CellInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/android/telephony/TelephonyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1309" column="28" selection-start-line="1309" selection-start-column="28" selection-end-line="1309" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/android/net/wifi/WifiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1293" column="20" selection-start-line="1293" selection-start-column="20" selection-end-line="1293" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/net/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="e#2818#2819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/lang/AutoCloseable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/io/Closeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="924" column="16" selection-start-line="924" selection-start-column="16" selection-end-line="924" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/androidsdk/sources/android-23/android/graphics/Bitmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1022" column="43" selection-start-line="1022" selection-start-column="43" selection-end-line="1022" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="707" column="38" selection-start-line="707" selection-start-column="38" selection-end-line="707" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5419#5435#0" expanded="true" />
+            <element signature="e#18711#18719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9666667">
+          <caret line="410" column="23" selection-start-line="410" selection-start-column="23" selection-end-line="410" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15891#15892#0" expanded="true" />
+            <element signature="e#15939#15940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+            <element signature="e#7936#7937#0" expanded="true" />
+            <element signature="e#7981#7982#0" expanded="true" />
+            <element signature="e#11777#11785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2367#2368#0" expanded="false" />
-            <element signature="e#2410#2411#0" expanded="false" />
-            <element signature="e#2498#2499#0" expanded="false" />
-            <element signature="e#2541#2542#0" expanded="false" />
-            <element signature="e#2629#2630#0" expanded="false" />
-            <element signature="e#2672#2673#0" expanded="false" />
-            <element signature="e#2760#2761#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2891#2892#0" expanded="false" />
-            <element signature="e#2934#2935#0" expanded="false" />
-            <element signature="e#3262#3263#0" expanded="false" />
-            <element signature="e#3319#3320#0" expanded="false" />
-            <element signature="e#3408#3409#0" expanded="false" />
-            <element signature="e#3465#3466#0" expanded="false" />
-            <element signature="e#3554#3555#0" expanded="false" />
-            <element signature="e#3611#3612#0" expanded="false" />
-            <element signature="e#3700#3701#0" expanded="false" />
-            <element signature="e#3757#3758#0" expanded="false" />
-            <element signature="e#3846#3847#0" expanded="false" />
-            <element signature="e#3903#3904#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/StringToolKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#563#564#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#10482#10483#0" expanded="false" />
-            <element signature="e#10518#10519#0" expanded="false" />
-            <element signature="e#11591#11592#0" expanded="false" />
-            <element signature="e#11644#11645#0" expanded="false" />
-            <element signature="e#11695#11696#0" expanded="false" />
-            <element signature="e#11746#11747#0" expanded="false" />
-            <element signature="e#11797#11798#0" expanded="false" />
-            <element signature="e#11856#11857#0" expanded="false" />
-            <element signature="e#12518#12519#0" expanded="false" />
-            <element signature="e#12569#12570#0" expanded="false" />
-            <element signature="e#14960#14961#0" expanded="false" />
-            <element signature="e#15006#15007#0" expanded="false" />
-            <element signature="e#15172#15173#0" expanded="false" />
-            <element signature="e#15215#15216#0" expanded="false" />
-            <element signature="e#17399#17400#0" expanded="false" />
-            <element signature="e#17453#17454#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/UIToolKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QNetWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="590" column="0" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.733334">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="262" column="31" selection-start-line="262" selection-start-column="31" selection-end-line="262" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselibrary/src/main/java/q/baselibrary/utils/QUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16901408">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

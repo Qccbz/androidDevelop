@@ -14,7 +14,8 @@ import android.widget.TextView;
 import java.util.List;
 
 import q.baselibrary.R;
-import q.baselibrary.utils.UIToolKit;
+import q.baselibrary.utils.QScreen;
+import q.baselibrary.utils.QUI;
 
 public class PopupImager {
 
@@ -40,10 +41,10 @@ public class PopupImager {
         menu = new PopupWindow(context);
         menu.setContentView(member);
 
-        int w = UIToolKit.dip2px(context, 165);
+        int w = QScreen.dip2px(context, 165);
         menu.setWidth(w);
 
-        int d = UIToolKit.dip2px(context, 45);
+        int d = QScreen.dip2px(context, 45);
         menu.setHeight(data.size() * d);
         menu.setBackgroundDrawable(new BitmapDrawable());
 
@@ -68,12 +69,12 @@ public class PopupImager {
     }
 
     public void setWidth(int w) {
-        int width = UIToolKit.dip2px(context, w);
+        int width = QScreen.dip2px(context, w);
         menu.setWidth(width);
     }
 
     public void setHeight(int h) {
-        int height = UIToolKit.dip2px(context, h);
+        int height = QScreen.dip2px(context, h);
         menu.setHeight((data.size() + 1) * height);
     }
 

@@ -5,15 +5,8 @@
         jar="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\exploded-aar\androidDevelop\baselibrary\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="bdbafac59a2121ecd9bcc1d3123a5fd774063324">
+        sha1="6d1ca2ab006067f5cf66854aa72dcaa07d348bbc">
         <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\classes-422669ce7bdb952ad416eaf1df51673a1436bc31.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.1\b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8\butterknife-5.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
-        <dex dex="E:\qiu&apos;s files\androidGithub\androidDevelop\app\build\intermediates\pre-dexed\debug\butterknife-5.1.1-4e4ce574f3d72998b594448756183a3048e0c38d.jar" />
     </item>
 
 </items>
