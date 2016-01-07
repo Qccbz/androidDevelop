@@ -80,7 +80,6 @@ public class ImageDetailFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
         // load image with AsyncTask
         new ImageTask().execute(mImageUrl);
     }

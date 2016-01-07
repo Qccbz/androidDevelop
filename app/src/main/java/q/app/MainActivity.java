@@ -121,8 +121,8 @@ public class MainActivity extends QBaseActivity implements NavigationView.OnNavi
 
         mDatas = new ArrayList<String>();
         mDatas.add("RecyclerView");
-        mDatas.add("view picker");
-        mDatas.add("view viewer");
+        mDatas.add("image picker");
+        mDatas.add("image viewer");
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));

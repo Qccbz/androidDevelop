@@ -54,13 +54,7 @@ public class ImageGridActivity extends QBaseActivity {
         gridView.setSelector(new ColorDrawable(Color.TRANSPARENT));
         adapter = new ImageGridAdapter(ImageGridActivity.this, dataList, mHandler);
         gridView.setAdapter(adapter);
-        gridView.setOnItemClickListener(new OnItemClickListener() {
 
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                adapter.notifyDataSetChanged();
-            }
-        });
         tp = new TitlePanel(this);
         tp.setTitle("Select images");
         tp.setRightTitle("Done");
